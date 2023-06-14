@@ -1,7 +1,8 @@
 /* Common styles */
 
 body {
-    background-color: ;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 
 /* Header styles */
@@ -94,58 +95,7 @@ body {
 
 .footer-text {}
 
-/* Nav styles */
- 
-.nav {}
 
-.nav-list {}
 
-.nav-item {}
 
-/* First row styles */
 
-.row {}
-
-.first {}
-
-.first-list {}
-
-.first-item {}
-
-.first-img {}
-
-.first-title {}
-
-.first-text {}
-
-/* Second row styles */
-
-.row {}
-
-.second {}
-
-.second-list {}
-
-.second-item {}
-
-.second-img {}
-
-.second-title {}
-
-.second-text {}
-
-/* Third row styles */
-
-.row {}
-
-.third {}
-
-.third-list {}
-
-.third-item {}
-
-.third-img {}
-
-.third-title {}
-
-.third-text {}
