@@ -1,32 +1,94 @@
+
+:root
+
 /* Common styles */
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+
 }
 
+ul {
+    list-style: none;
+}
+.page {
+    background: #FFFFFF;
+}
 /* Header styles */
 
 
-.header {}
+.header {
+    
+}
 
-.header-nav {}
+.header-nav {
+    
+}
 
-.header-logo {}
+.header-logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
 
-.header-list {}
+}
+.header-logo-link {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;
+}
 
-.header-item {}
+.header-list {
 
-.header-link {}
+}
+
+.header-item {
+
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
 
 .header-address {}
 
-.header-address-list {}
+.header-address-list {
 
-.header-address-item {}
+}
 
-.header-address-link {}
+.header-address-item {
+ 
+}
+
+.header-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
 
 
 /* Hero styles */
@@ -34,11 +96,31 @@ body {
 
 .section {}
 
-.hero {}
+.hero {
+    background: #2E2F42;
+}
 
-.hero-title {}
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
-.hero-btn {}
+.hero-btn {
+    background: #4D5AE5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
 
 
 /* Benefits styles */
@@ -54,16 +136,39 @@ body {
 
 .benefits-item {}
 
-.benefits-item-title {}
+.benefits-item-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
-.benefits-text {}
+.benefits-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* Tech styles */
 
 
 .tech {}
 
-.tech-title {}
+.tech-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
 
 .tech-list {}
 
@@ -75,7 +180,16 @@ body {
 
 .team {}
 
-.team-title {}
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
 
 .team-list {}
 
@@ -83,18 +197,64 @@ body {
 
 .team-img {}
 
-.team-name {}
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
-.team-text {}
+.team-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* Footer styles */
 
-.footer {}
+.footer {
+    background-color: #2E2F42;
+}
 
-.footer-logo {}
+.footer-logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
 
-.footer-text {}
+.footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
 
+.footer-logo-link {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    }
 
 
 
