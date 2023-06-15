@@ -6,156 +6,148 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
+
+
+    font-size: 16px;
+    line-height: 1.5;
 
 }
 
-ul {
-    list-style: none;
+
+
+.link
+a {
+    text-decoration: none;
+    color: currentColor;
 }
-.page {
-    background: #FFFFFF;
-}
+
 /* Header styles */
 
-
 .header {
-    
+    font-style: normal;
 }
 
-.header-nav {
-    
-}
+.header-nav {}
 
 .header-logo {
-    font-style: normal;
+    font-family: 'Raleway', serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
-
 }
-.header-logo-link {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
+
+
+.header-logo-span {
     color: #2E2F42;
-    text-decoration: none;
 }
 
 .header-list {
-
-}
-
-.header-item {
-
-}
-
-.header-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration: none;
+    list-style: none;
 }
 
-.header-address {}
 
-.header-address-list {
 
-}
+.header-item:hover,
+.header-item:focus {
+    color: #4D5AE5;
+} 
 
-.header-address-item {
- 
-}
+.address {}
 
-.header-address-link {
-    font-style: normal;
+.address-list {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.address-item:hover,
+.address-item:focus {
+    color: #4D5AE5;
 }
 
 
 /* Hero styles */
 
-
 .section {}
 
 .hero {
     background: #2E2F42;
+    
+    
 }
 
 .hero-title {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    
 }
 
 .hero-btn {
-    background: #4D5AE5;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    background: #4D5AE5;
     color: #FFFFFF;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 
 /* Benefits styles */
 
-
 .section {}
 
-.benefits {}
+.benefits {
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
 
-.benefits-title {}
-
-.benefits-list {}
+.benefits-list {
+    list-style: none;
+}
 
 .benefits-item {}
 
-.benefits-item-title {
-    font-style: normal;
+.benefits-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .benefits-text {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
+    line-height: 1.5;
 }
 
-/* Tech styles */
+/* Tech section */
 
+.section {}
 
 .tech {}
 
@@ -163,20 +155,24 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
 
-.tech-list {}
+.tech-list {
+    list-style: none;
+}
 
 .tech-item {}
 
 .tech-img {}
 
-/* Team styles */
+/* Team section */
+
+.section {}
 
 .team {}
 
@@ -184,14 +180,16 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
 
-.team-list {}
+.team-list {
+    list-style: none;
+}
 
 .team-item {}
 
@@ -201,7 +199,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -211,102 +209,85 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
-/* Footer styles */
+/* Footer section */
 
 .footer {
-    background-color: #2E2F42;
+    background: #2E2F42;
 }
 
 .footer-logo {
-    font-style: normal;
+    font-family: 'Raleway', serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+
+}
+
+.footer-logo-span {
+    color: #F4F4FD;
 }
 
 .footer-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;}
-
-.footer-logo-link {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #F4F4FD;
-    }
-
-
-
-/* Section app */
-
-.section {}
+}
+/* App search */
 
 .app {}
 
-.app-title {}
+.search {}
 
-.app-list {}
+.searcch-list {
+    list-style: none;
+}
 
-.app-item {}
+.search-item {}
 
-.app-btn {
+.search-btn {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background: #F4F4FD;
 }
 
-.section-list {}
+.app-list {
+    list-style: none;
+}
 
-.section-item {}
+.app-item {}
 
-.section-link {}
+.app-img {}
 
-.section-img {}
-
-.section-title {
+.app-title {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    list-style: none;
 }
 
-.section-text {
+.app-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    list-style: none;
 }
+

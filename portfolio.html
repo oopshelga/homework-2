@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="preconnect"
-      href="https://fonts.google.com/share?selection.family=Raleway:wght@800%7CRoboto:wght@400;500;700;900"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio portfolio</title>
@@ -14,151 +20,151 @@
     <!--Header section-->
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html">WebStudio</a>
+        <a class="header-logo link" href="./index.html"
+          >Web<span class="header-logo-span">Studio</span></a
+        >
         <ul class="header-list">
-          <li class="header-item"><a class="header-link" href="">Studio</a></li>
-          <li class="header-item">
-            <a class="header-link" href="">Portfolio</a>
+          <li class="header-item link">
+            <a href="">Studio</a>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="">Contacts</a>
+          <li class="header-item link">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item link">
+            <a href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address class="header-address">
-        <ul class="header-address-list">
-          <li class="header-address-item">
-            <a class="header-address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+      <address class="address">
+        <ul class="address-list">
+          <li class="address-item link">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="header-address-item">
-            <a class="header-address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+          <li class="address-item link">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <!--Section app-->
-      <section class="section app">
-        <h1 class="app-title" hidden>Features</h1>
-        <ul class="app-list">
-          <li class="app-item">
-            <button class="app-btn" type="button">All</button>
+      <!--App search-->
+      <section class="app search">
+        <h1 hidden>Features</h1>
+        <ul class="searcch-list">
+          <li class="search-item">
+            <button class="search-btn" type="button">All</button>
           </li>
-          <li class="app-item">
-            <button class="app-btn" type="button">Website</button>
+          <li class="search-item">
+            <button class="search-btn" type="button">Web Site</button>
           </li>
-          <li class="app-item">
-            <button class="app-btn" type="button">App</button>
+          <li class="search-item">
+            <button class="search-btn" type="button">App</button>
           </li>
-          <li class="app-item">
-            <button class="app-btn" type="button">Design</button>
+          <li class="search-item">
+            <button class="search-btn" type="button">Design</button>
           </li>
-          <li class="app-item">
-            <button class="app-btn" type="button">Marketing</button>
+          <li class="search-item">
+            <button class="search-btn" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="section-list">
-          <li class="section-item">
-            <a class="section-link" href=""
+        <ul class="app-list">
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-1.jpg"
                 alt="Banking app"
               />
-              <h2 class="section-title">Banking App Interface Concept</h2>
-              <p class="section-text">App</p>
+              <h2 class="app-title">Banking App Interface Concept</h2>
+              <p class="app-text">App</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-2.jpg"
                 alt="Way of payment"
               />
-              <h2 class="section-title">Cashless Payment</h2>
-              <p class="section-text">Marketing</p>
+              <h2 class="app-title">Cashless Payment</h2>
+              <p class="app-text">Marketing</p>
             </a>
           </li>
-          <li class="section-item">
+          <li class="app-item link">
             <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-3.jpg"
                 alt="Maditation app"
               />
-              <h2 class="section-title">Meditation App</h2>
-              <p class="section-text">App</p>
+              <h2 class="app-title">Meditation App</h2>
+              <p class="app-text">App</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-4.jpg"
                 alt="Taxi service"
               />
-              <h2 class="section-title">Taxi Service</h2>
-              <p class="section-text">Marketing</p>
+              <h2 class="app-title">Taxi Service</h2>
+              <p class="app-text">Marketing</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-5.jpg"
                 alt="Pictures on the screen"
               />
-              <h2 class="section-title">Screen Illustrations</h2>
-              <p class="section-text">Design</p>
+              <h2 class="app-title">Screen Illustrations</h2>
+              <p class="app-text">Design</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-6.jpg"
                 alt="The girl is looking for online curses"
               />
-              <h2 class="section-title">Online Courses</h2>
-              <p class="section-text">Marketing</p>
+              <h2 class="app-title">Online Courses</h2>
+              <p class="app-text">Marketing</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-7.jpg"
                 alt="Different types of instsgram stories"
               />
-              <h2 class="section-title">Instagram Stories Concept</h2>
-              <p class="section-text">Design</p>
+              <h2 class="app-title">Instagram Stories Concept</h2>
+              <p class="app-text">Design</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a class="app-link" href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-8.jpg"
                 alt="Organic food in the bag"
               />
-              <h2 class="section-title">Organic Food</h2>
-              <p class="section-text">Web Site</p>
+              <h2 class="app-title">Organic Food</h2>
+              <p class="app-text">Web Site</p>
             </a>
           </li>
-          <li class="section-item">
-            <a class="section-link" href=""
+          <li class="app-item link">
+            <a href=""
               ><img
-                class="section-img"
+                class="app-img"
                 src="./images/portfolio/img-9.jpg"
                 alt="Coffee with milk"
               />
-              <h2 class="section-title">Fresh Coffee</h2>
-              <p class="section-text">Web Site</p>
+              <h2 class="app-title">Fresh Coffee</h2>
+              <p class="app-text">Web Site</p>
             </a>
           </li>
         </ul>
@@ -166,7 +172,9 @@
     </main>
     <!--Footer section-->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html">WebStudio</a>
+      <a class="footer-logo" href="./index.html"
+        >Web<span class="footer-logo-span">Studio</span></a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
