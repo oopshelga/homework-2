@@ -2,10 +2,10 @@
 :root {
     --main-dark-cl: #434455;
     --main-white-bgd:#FFFFFF;
-    --blue-cl: #4D5AE5;
-    --dark-cl: #2E2F42;
-    --blue-bgd: #404bbf;
-    --white-cl: #F4F4FD;
+    --bright-blue-cl: #4D5AE5;
+    --dark-title-cl: #2E2F42;
+    --dark-blue-bgd: #404bbf;
+    --simple-white-cl: #F4F4FD;
   
 }
 
@@ -13,8 +13,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--main-dark-cl);
+    background-color: var(--main-white-bgd);
 
 
     font-size: 16px;
@@ -44,14 +44,14 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--bright-blue-cl);
     text-decoration: none;
 }
 
 
 
 .header-logo-span {
-    color: #2E2F42;
+    color: var(--dark-title-cl);
 }
 
 .header-link {
@@ -59,33 +59,29 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark-title-cl);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #404bbf;
+    color: var(--dark-blue-bgd);
 } 
 
 .address {
-
+    font-style: normal;
 }
 
-.header-mail,
-.header-tel {
-    font-style: normal;
+.header-contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-dark-cl);
 }
 
-.header-mail:hover,
-.header-mail:focus,
-.header-tel:hover,
-.header-tel:focus{
-    color: #404bbf;
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--dark-blue-bgd);
 }
 
 
@@ -94,7 +90,7 @@ body {
 .section {}
 
 .hero {
-    background-color: #2E2F42;;
+    background-color: var(--dark-title-cl);;
     
     
 }
@@ -106,7 +102,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-white-bgd);
     
 }
 
@@ -116,13 +112,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--bright-blue-cl);
+    color: var(--main-white-bgd);
     cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404bbf;
+    background-color: var(--dark-blue-bgd);
 }
 
 
@@ -147,7 +143,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark-title-cl);
 }
 
 .benefits-text {
@@ -170,7 +166,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--dark-title-cl);
 }
 
 .tech-list {
@@ -186,7 +182,7 @@ body {
 .section {}
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--simple-white-cl);
 }
 
 .team-title {
@@ -197,7 +193,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--dark-title-cl);
 }
 
 .team-list {
@@ -205,7 +201,7 @@ body {
 }
 
 .team-item {
-    
+    background-color: var(--main-white-bgd)
 }
 
 .team-img {
@@ -219,9 +215,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    background-color: #FFFFFF;
-    
+    color: var(--dark-title-cl);
 }
 
 .team-text {
@@ -231,13 +225,12 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF;
 }
 
 /* Footer section */
 
 .footer {
-    background: #2E2F42;
+    background: var(--dark-title-cl);
 }
 
 .footer-logo {
@@ -247,7 +240,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--bright-blue-cl);
     text-decoration: none;
 
 }
@@ -284,13 +277,13 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--blue-cl);
-    background-color: #F4F4FD;
+    background-color: var(--simple-white-cl);
     cursor: pointer;
 }
 .search-btn:hover,
 .search-btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--main-white-bgd);
+    background-color: var(--dark-blue-bgd);
 }
 
 
@@ -308,7 +301,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark-cl);
+    color: var(--dark-title-cl);
 }
 
 .app-text {
@@ -317,5 +310,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--main-dark-cl);
 }
 
