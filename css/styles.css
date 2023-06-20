@@ -53,6 +53,7 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .header-nav {
     display: flex;
@@ -67,8 +68,7 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--bright-blue-cl);
-    text-decoration: none;
-    margin-left: 154px;
+    margin-left: 156px;
     margin-right: 76px;
 }
 
@@ -79,8 +79,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .header-list {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
+    
 }
 .header-item {
     
@@ -141,7 +142,9 @@ h1,h2,h3,h4,h5,h6,p {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-white-bgd);
-    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -153,6 +156,8 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: var(--bright-blue-cl);
     color: var(--main-white-bgd);
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -162,19 +167,18 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Benefits styles */
 
-.section {}
-
 .benefits {
     font-style: normal;
     letter-spacing: 0.02em;
     padding-top: 120px;
     padding-bottom: 60px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .benefits-list {
     display: flex;
     justify-content: space-between;
-    width: 1128px;
 }
 
 .benefits-item {
@@ -204,6 +208,8 @@ h1,h2,h3,h4,h5,h6,p {
 .tech {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .tech-title {
@@ -215,15 +221,20 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-title-cl);
+    margin-bottom: 72px;
 }
 
 .tech-list {
-    list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
-.tech-item {}
+.tech-item {
+}
 
-.tech-img {}
+.tech-img {
+    gap: 24px;
+}
 
 /* Team section */
 
@@ -233,6 +244,9 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: var(--simple-white-cl);
     padding-top: 60px;
     padding-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+
 }
 
 .team-title {
@@ -244,10 +258,12 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-title-cl);
+    margin-bottom: 72px;
 }
 
 .team-list {
-   
+   display: flex;
+   gap: 24px;
 }
 
 .team-item {
@@ -293,7 +309,6 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--bright-blue-cl);
-    text-decoration: none;
 
 }
 
@@ -308,6 +323,7 @@ h1,h2,h3,h4,h5,h6,p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--simple-white-cl);
+    margin-top: 16px;
 }
 /* App search */
 
