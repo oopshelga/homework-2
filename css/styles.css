@@ -5,7 +5,7 @@
     --bright-blue-cl: #4D5AE5; 
     --dark-title-cl: #2E2F42;
     --dark-blue-bgd: #404bbf;
-    --simple-white-cl: #F4F4FD; #4d5ae5
+    --simple-white-cl: #F4F4FD;
   
 }
 
@@ -19,13 +19,26 @@ body {
 
     font-size: 16px;
     line-height: 1.5;
-
 }
+   /* Reset */
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}   
+
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .link {
     text-decoration: none;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -33,9 +46,18 @@ body {
 
 .header {
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
-
-.header-nav {}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -46,6 +68,8 @@ body {
     text-transform: uppercase;
     color: var(--bright-blue-cl);
     text-decoration: none;
+    margin-left: 154px;
+    margin-right: 76px;
 }
 
 
@@ -53,7 +77,14 @@ body {
 .header-logo-span {
     color: var(--dark-title-cl);
 }
-
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-item {
+    
+}
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -69,6 +100,11 @@ body {
 
 .address {
     font-style: normal;
+}
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-contact {
@@ -90,7 +126,9 @@ body {
 .section {}
 
 .hero {
-    background-color: var(--dark-title-cl);;
+    background-color: var(--dark-title-cl);
+    padding-top: 188px;
+    padding-bottom: 188px;
     
     
 }
@@ -129,14 +167,21 @@ body {
 .benefits {
     font-style: normal;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
 .benefits-list {
-    list-style: none;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1128px;
 }
 
-.benefits-item {}
+.benefits-item {
+    width: 264px;
+
+
+}
 
 .benefits-title {
     font-weight: 500;
@@ -156,7 +201,10 @@ body {
 
 .section {}
 
-.tech {}
+.tech {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .tech-title {
     font-style: normal;
@@ -183,6 +231,8 @@ body {
 
 .team {
     background-color: var(--simple-white-cl);
+    padding-top: 60px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -231,6 +281,8 @@ body {
 
 .footer {
     background: var(--dark-title-cl);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -259,7 +311,9 @@ body {
 }
 /* App search */
 
-.app {}
+.app {
+    padding-bottom: 120px;
+}
 
 .search {}
 
